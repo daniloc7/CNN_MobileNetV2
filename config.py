@@ -1,0 +1,9 @@
+diretorio_treinamento = "C:/Users/danil/Documents/imgintegrador/train"
+diretorio_validacao = "C:/Users/danil/Documents/imgintegrador/valid"
+diretorio_fita_branca = 'C:/Users/danil/Documents/fita branca'
+diretorio_fita_preta = 'C:/Users/danil/Documents/fita preta'
+largura_patch = 250
+altura_patch = 200
+batch_size = 2   ## verificar quantas imagens por lote? (valor baixo por ter gpu onboard)
+epochs = 10
+learning_rate = 0.01
