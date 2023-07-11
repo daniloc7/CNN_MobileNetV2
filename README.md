@@ -15,3 +15,12 @@ validação.
 output: [[0.65795904 0.342041  ]], significa que a rede neural entrega com o nivel de confiança de 65,79% que a imagem fornecida pertence a classe 1(fitabranca).
 
 5 - config.py: classe criada para manter as configurações estáticas. 
+
+# RESUMO DAS TÉCNICAS UTILIZADAS NESTE CÓDIGO:
+ * Recortes das imagens originais em patches retangulares
+ * Data augmentation para ampliar o dataset com mudanças nas imagens
+ * Escolhido um batch_size conforme a quantidade de imagens e poder computacional
+ * Learning rate de 0.01(1%)
+ * 2 camadas de dropout de 0.2(20%)
+ * Utilizado técnida de poda com esparsidade inicial de 0% e final de 80%.
+ * Métricas de avaliação utilizadas foram acurácia e overfitting.
